@@ -3,7 +3,7 @@ import React from 'react'
 
 const Reserve = () => {
   return (
-    <div className="container mx-auto max-w-full bg-primary flex flex-col lg:flex-row justify-center items-center gap-20 lg:gap-40 pt-20 pb-20">
+    <div className="container mx-auto max-w-full bg-primary flex flex-col lg:flex-row justify-center items-center gap-20 lg:gap-40 ">
        <section className='w-5/6  lg:w-1/3 md:w-3/4 '>
       <h1 className='text-logo font-logo w-full text-5xl md:text-6xl font-bold pb-5 text-center'>Reservation Here</h1>
       <form className=" bg-bgimg  w-full flex flex-col gap-6 pt-5 items-center  rounded-xl pb-10 border-primary border-4">

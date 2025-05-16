@@ -35,7 +35,7 @@ const Services = () => {
   ]
   // grid grid-cols-1 md:grid-cols-2  md:gap-3 lg:gap-10  lg:grid-cols-5 justify-items-center
   return (
-    <div className='max-w-screen  bg-primary flex flex-col justify-start gap-10 pb-10 '>
+    <div className='w-full  flex flex-col justify-start gap-10 bg-primary   '>
        <h1 className='text-logo text-5xl md:text-6xl lg:text-7xl font-logo font-bold text-center bg-primary mt-5 pt-10 '>Services</h1>
        <section className=' w-3/4 lg:w-5/6  xl:w-4/5 container mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5   gap-10 lg:gap-20 xl:gap-20 justify-items-center   '>
           {data.map((d,index)=>(
